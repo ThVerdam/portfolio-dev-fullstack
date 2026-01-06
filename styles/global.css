@@ -41,3 +41,7 @@ body {
   background-color: var(--gray-500);
   color: var(--gray-100);
 }
+
+#intro img path {
+  fill: var(--gray-300);
+}
