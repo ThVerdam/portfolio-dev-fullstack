@@ -51,3 +51,16 @@ body {
     color: var(--gray-100);
   }
 }
+
+.description {
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    padding-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+}
