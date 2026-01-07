@@ -30,16 +30,24 @@
   --text-sm: 400 14px/140% var(--font-family);
 }
 
-span {
-  font: var(--subtitle);
-  color: var(--gray-200);
-}
-
 body {
   background-color: var(--gray-500);
   color: var(--gray-100);
 }
 
-#intro img path {
-  fill: var(--gray-300);
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  span {
+    color: var(--red);
+    font: var(--subtitle);
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
 }

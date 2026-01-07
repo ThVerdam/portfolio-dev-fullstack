@@ -1,0 +1,48 @@
+#projects {
+  padding: 72px 0 144px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  outline: 1.5px solid var(--gray-400);
+  transition: 0.3s;
+
+  &:hover {
+    outline: 1.5px solid var(--gray-300);
+  }
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    padding-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+
+  background-color: var(--gray-400);
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1040px;
+  gap: 24px;
+
+  margin: 56px auto;
+  padding-bottom: 88px;
+}

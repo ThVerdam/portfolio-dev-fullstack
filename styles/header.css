@@ -20,6 +20,11 @@
   margin: 0 auto;
 }
 
+span {
+  font: var(--subtitle);
+  color: var(--gray-200);
+}
+
 #red {
   color: var(--red);
 }
