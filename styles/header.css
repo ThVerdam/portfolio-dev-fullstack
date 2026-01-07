@@ -5,6 +5,9 @@
   padding-bottom: 57px;
   text-align: center;
   gap: 74px;
+
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
 }
 
 #info {
@@ -45,6 +48,7 @@ h1 {
 
 #text p {
   color: var(--gray-300);
+  font: var(--text-sm);
 }
 
 .tag {
@@ -59,5 +63,9 @@ h1 {
 #tags {
   display: flex;
   gap: 16px;
+}
+
+.tag p {
+  font: var(--text-md);
   color: var(--gray-200);
 }
