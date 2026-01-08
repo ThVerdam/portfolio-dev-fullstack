@@ -28,6 +28,9 @@
   --font-family: "Maven Pro", sans-serif;
   --text-md: 400 16px/140% var(--font-family);
   --text-sm: 400 14px/140% var(--font-family);
+
+  --font-contact: "Maven Pro", sans-serif;
+  --text-contact: 500 16px/140% var(--font-contact);
 }
 
 body {
